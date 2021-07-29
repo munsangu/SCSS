@@ -1,0 +1,13 @@
+@import "./sub", "./sub2";
+
+$color: royalblue;
+
+.container {
+  h1 {
+    color:$color;
+    /* background-color: orange; */
+    // font-size: 60px;
+    // /* */  CSS로 변환시 주석 형태로 출력됨
+    //  //    CSS로 변환시 주석 형태로 출력되지 않음
+  }
+}
